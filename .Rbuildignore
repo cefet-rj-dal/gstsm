@@ -3,3 +3,4 @@
 ^.*\.Rdata$
 ^LICENSE\.md$
 ^example$
+^cran-comments\.md$
