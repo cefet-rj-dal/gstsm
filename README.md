@@ -25,7 +25,7 @@ so its main goal is mining patterns present in spatio-temporal sequences. The R 
 Developed at CEFET/RJ for an academic work.
 
 In the next sections you can check an example of the running code, its documentation,
-development setps and so on. Please feel free to make contribuitions and contact in case of
+development steps and so on. Please feel free to make contributions and contact in case of
 bugs/suggestions.
 
 ## Example
@@ -279,7 +279,7 @@ lessons made by the teacher Eduardo Ogasawara it was not hard to finish this ste
 
 ### 1: Check name availability
 
-It is essencial to choose the right name and besides being short a
+It is essential to choose the right name and besides being short a
 couple of tests should be done to check if the name is available not only on
 cran but on the general internet.
 
@@ -295,7 +295,7 @@ After learning all this it was possible to think in how to structure the package
 
 ### 3: R code
 
-In This step all the algorithms were diveded, adpated and put on R folder.
+In This step all the algorithms were divided, adaptaded and put on R folder.
 After this was done it was possible to start using the package.
 
 ### 4: Documentation
@@ -312,7 +312,7 @@ description, authors, license and so on.
 ### 6: Checking
 
 Last but not least, the package was tested with devtools. It is important to notice
-that the checking is the most essencial step and besides being the final step, it was
+that the checking is the most essential step and besides being the final step, it was
 done in all previous step as devtools check has a lot of tests to catch errors.
 
 ## Credits

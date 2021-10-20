@@ -7,7 +7,7 @@
 split_groups(pos, adjacency_matrix)
 }
 \arguments{
-\item{pos}{sequency ocurrence index}
+\item{pos}{sequence occurrence index}
 
 \item{adjacency_matrix}{possible connection between positions}
 }

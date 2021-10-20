@@ -1,8 +1,8 @@
 #' Algorithm 2: Validate and Close
 #'
-#' The validateGroup function is shown in Algorithm 2. It receives as input
+#' The function is shown in Algorithm 2. It receives as input
 #' the set of RGs (RG) from a candidate and the minimum size of a group (beta).
-#' It starts defining a set of elements that will be removed (toRemove) from the
+#' It starts defining a set of elements that will be removed from the
 #' set of RGs (line 2), if it does not have the minimum group size.
 #'
 #' @param c candidate

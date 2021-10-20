@@ -21,8 +21,8 @@ gstsm(sts_dataset, spatial_positions, gamma, beta, sigma)
 Solid-Raged-Groups.
 }
 \description{
-This section presents the G-STSM. Our algorithm is designed to the iden-
-tification of frequent sequences in STS datasets from the concept of SRG.
+This section presents the G-STSM. Our algorithm is designed to the
+identification of frequent sequences in STS datasets from the concept of SRG.
 The notion of ranged-group (RG, KRG, and SRG) introduced in the previous
 section enables for extracting SRG efficiently.
 The G-STSM is based on the candidate-generating principle. Our goal is

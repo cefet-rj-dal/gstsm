@@ -2,7 +2,7 @@
 #'
 #' Helper function that split groups
 #'
-#' @param pos sequency ocurrence index
+#' @param pos sequence occurrence index
 #' @param adjacency_matrix possible connection between positions
 #' @return new set based on candidate c found in d.
 #' @importFrom digest digest
