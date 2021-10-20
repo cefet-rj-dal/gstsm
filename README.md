@@ -86,7 +86,7 @@ result <- gstsm::gstsm(d, p, gamma, beta, sigma)
 
 ## Documentation
 
-Here all the funcionts are described.
+Here all the functions are described.
 
 ### gstsm
 
@@ -324,7 +324,7 @@ This package was made with the following open source projects:
 - [roxygen2](https://github.com/r-lib/roxygen2)
 
 Special thanks to teacher Eduardo Ogasawara for the orientation and
-Antonio Filho for the article.
+Antonio Castro for the article.
 
 ## License
 
