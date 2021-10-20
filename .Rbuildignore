@@ -1,0 +1,5 @@
+^gstsm\.Rproj$
+^\.Rproj\.user$
+^.*\.Rdata$
+^LICENSE\.md$
+^example$

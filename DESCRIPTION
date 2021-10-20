@@ -1,0 +1,43 @@
+Package: gstsm
+Title: gstsm package
+Version: 0.0.0.9000
+Authors@R:
+    c(
+        person(
+            given = "Cássio",
+            family = "Souza",
+            role = c("aut", "cre"),
+            email = "cassiofb.souza@gmail.com"
+        ),
+        person(
+            given = "Jorge",
+            family = "Rodrigues",
+            role = "aut",
+            email = "jorgegabriel99h@gmail.com"
+        ),
+        person(
+            given = "Eduardo",
+            family = "Ogasawara",
+            role = "ctb",
+            email = "eogasawara@ieee.org",
+            comment = c(ORCID = "0000-0002-0466-0626")
+        ),
+        person(
+            given = "Antonio",
+            family = "Filho",
+            role = "ctb",
+            email = "antonio.castro@eic.cefet-rj.br"
+        ),
+        person(
+            given = "CEFET/RJ",
+            role = "cph"
+        )
+    )
+Description: R package that implements the algorithms present in the article Generalized Discovery of Tight Space-Time Sequences.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    digest
