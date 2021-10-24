@@ -1,5 +1,5 @@
 Package: gstsm
-Title: gstsm package
+Title: Generalized Spatial-Time Sequence Miner
 Version: 0.0.1
 Authors@R:
     c(
@@ -41,3 +41,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     digest
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
