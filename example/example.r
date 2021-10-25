@@ -43,6 +43,4 @@ gamma <- 0.8
 beta <- 2
 sigma <- 1
 
-calculated_groups <- new.env(hash = TRUE)
-
 result <- gstsm::gstsm(d, p, gamma, beta, sigma)

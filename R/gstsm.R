@@ -20,6 +20,8 @@
 #' @importFrom stats na.exclude
 #' @export
 gstsm <- function(sts_dataset, spatial_positions, gamma, beta, sigma) { # nolint
+  calculated_groups <- new.env(hash = TRUE)
+  
   solid_ranged_groups <- list()
 
   items <- stats::na.exclude(unique(unlist(sts_dataset)))
