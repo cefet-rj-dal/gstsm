@@ -1,11 +1,11 @@
 library(gstsm)
 
 test_that("empty group when no positions occurs", {
-
   calculated_groups <<- new.env(hash = TRUE)
-  
+
   adjacency_matrix <- matrix(
-    c(FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
+    c(
+      FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
       TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE,
       FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE,
       TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE,
@@ -13,7 +13,8 @@ test_that("empty group when no positions occurs", {
       FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE,
       FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE,
       FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE,
-      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE),
+      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE
+    ),
     nrow = 9,
     ncol = 9
   )
@@ -25,9 +26,10 @@ test_that("empty group when no positions occurs", {
 
 test_that("a group should be created", {
   calculated_groups <<- new.env(hash = TRUE)
-  
+
   adjacency_matrix <- matrix(
-    c(FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
+    c(
+      FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
       TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE,
       FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE,
       TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE,
@@ -35,7 +37,8 @@ test_that("a group should be created", {
       FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE,
       FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE,
       FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE,
-      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE),
+      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE
+    ),
     nrow = 9,
     ncol = 9
   )
@@ -47,9 +50,10 @@ test_that("a group should be created", {
 
 test_that("two groups should be created", {
   calculated_groups <<- new.env(hash = TRUE)
-  
+
   adjacency_matrix <- matrix(
-    c(FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
+    c(
+      FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE,
       TRUE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE,
       FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE,
       TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE,
@@ -57,7 +61,8 @@ test_that("two groups should be created", {
       FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE,
       FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE,
       FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE, TRUE,
-      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE),
+      FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE, FALSE
+    ),
     nrow = 9,
     ncol = 9
   )

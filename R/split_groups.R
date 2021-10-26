@@ -48,7 +48,7 @@ split_groups <- function(pos, adjacency_matrix) {
     new_calculated_groups[[line]] <- new_group
   }
 
-  calculated_groups[[key]] <<- new_calculated_groups
+  calculated_groups[[key]] <- new_calculated_groups
 
   return(new_calculated_groups)
 }
