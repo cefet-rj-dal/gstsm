@@ -33,7 +33,7 @@ Authors@R:
             role = "cph"
         )
     )
-Description: R package that implements the algorithms present in the article Generalized Discovery of Tight Space-Time Sequences.
+Description: Implementations of the algorithms present in the article Generalized Discovery of Tight Space-Time Sequences.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
