@@ -1,7 +1,7 @@
 library(gstsm)
 
 test_that("empty group when no positions occurs", {
-  calculated_groups <<- new.env(hash = TRUE)
+  calculated_groups <- new.env(hash = TRUE)
 
   adjacency_matrix <- matrix(
     c(
@@ -25,7 +25,7 @@ test_that("empty group when no positions occurs", {
 })
 
 test_that("a group should be created", {
-  calculated_groups <<- new.env(hash = TRUE)
+  calculated_groups <- new.env(hash = TRUE)
 
   adjacency_matrix <- matrix(
     c(
@@ -49,7 +49,7 @@ test_that("a group should be created", {
 })
 
 test_that("two groups should be created", {
-  calculated_groups <<- new.env(hash = TRUE)
+  calculated_groups <- new.env(hash = TRUE)
 
   adjacency_matrix <- matrix(
     c(
