@@ -1,0 +1,6 @@
+A B A D D E A A E E D D A B E E E A A A E E E D A A B B E E
+B C D D D E B C C C D B B C C C E B B B C C E C B B C B E D
+C A A D D D C D A A D E C C E A A A C C A D E A C C A A C C
+D A A B A B D D A A B D D B D A A A D D D D B A D D B D D B
+E B B C C B E C B B C C E E C B B B E E B E C E E E E C E C
+A B C D E A B C D E A B C D E A B C D E A B C D E A B C D E
