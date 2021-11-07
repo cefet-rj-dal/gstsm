@@ -58,14 +58,6 @@ p <- read.table(
   stringsAsFactors = FALSE
 )
 
-text(
-  p$x,
-  p$y,
-  labels = p$points,
-  cex = 0.7,
-  pos = 3
-)
-
 gamma <- 0.8
 beta <- 2
 sigma <- 1
