@@ -33,7 +33,12 @@ Authors@R:
             role = "cph"
         )
     )
-Description: Implementations of the algorithms present in the article Generalized Discovery of Tight Space-Time Sequences.
+Description: Implementations of the algorithms present in the future article 
+    Generalized Discovery of Tight Space-Time Sequences, original title
+    (Castro Filho, A. J. ; Borges, H. ; Pacitti, Esther ; Porto, F.
+    ; Coutinho, R. ; Ogasawara, E. . Generalização de Mineração de
+    Sequências Restritas no Espaço e no Tempo. In: XXXVI SBBD -
+    Simpósio Brasileiro de Banco de Dados, 2021).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
