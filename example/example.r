@@ -1,7 +1,13 @@
 library("gstsm")
 
+events_data_path <-
+  system.file("inst/extdata", "made_bangu_6x30.txt", package = "gstsm")
+
+space_time_data_path <-
+  system.file("extdata", "positions_2D_30.txt", package = "gstsm")
+
 d <- read.table(
-  "made_bangu_6x30.txt",
+  events_data_path,
   header = FALSE,
   sep = " ",
   dec = ".",
@@ -10,7 +16,7 @@ d <- read.table(
 )
 
 p <- read.table(
-  "positions_2D_30.txt",
+  space_time_data_path,
   header = TRUE,
   sep = " ",
   dec = ".",
