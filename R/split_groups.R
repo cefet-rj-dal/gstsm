@@ -1,12 +1,11 @@
 #' Split Groups
 #'
-#' Helper function that split groups
+#' Helper function that splits groups.
 #'
 #' @param pos sequence occurrence index
 #' @param adjacency_matrix possible connection between positions
 #' @return new set based on candidate c found in d.
 #' @importFrom digest digest
-#' @export
 split_groups <- function(pos, adjacency_matrix) {
   key <- digest::digest(pos, algo = "xxhash64")
 

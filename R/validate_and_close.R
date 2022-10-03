@@ -1,15 +1,14 @@
-#' Algorithm 2: Validate and Close
+#' Validate and Close
 #'
-#' The function is shown in Algorithm 2. It receives as input
-#' the set of RGs (RG) from a candidate and the minimum size of a group (beta).
+#' The function receives as input the set of RGs (RG) from a candidate and the
+#' minimum size of a group (beta).
 #' It starts defining a set of elements that will be removed from the
-#' set of RGs (line 2), if it does not have the minimum group size.
+#' set of RGs, if it does not have the minimum group size.
 #'
 #' @param c candidate
 #' @param gamma minimum temporal frequency
 #' @param beta minimum group size
 #' @return validated Greedy-Ranged-Groups.
-#' @export
 validate_and_close <- function(c, gamma, beta) {
   freq <- 3
 

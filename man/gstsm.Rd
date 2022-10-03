@@ -2,7 +2,7 @@
 % Please edit documentation in R/gstsm.R
 \name{gstsm}
 \alias{gstsm}
-\title{Algorithm 1: G-STSM}
+\title{GSTSM}
 \usage{
 gstsm(sts_dataset, spatial_positions, gamma, beta, sigma)
 }
@@ -15,52 +15,44 @@ gstsm(sts_dataset, spatial_positions, gamma, beta, sigma)
 
 \item{beta}{minimum group size}
 
-\item{sigma}{max distance between group points}
+\item{sigma}{maximum distance between group points}
 }
 \value{
-Solid-Raged-Groups.
+a GSTSM object
 }
 \description{
-This section presents the G-STSM. Our algorithm is designed to the
-identification of frequent sequences in STS datasets from the concept of SRG.
-The notion of ranged-group (RG, KRG, and SRG) introduced in the previous
-section enables for extracting SRG efficiently.
-The G-STSM is based on the candidate-generating principle. Our goal is
-to start finding SRGs for sequences of size one. Then we explore the support
-and the number of occurrences of SRGs for larger sequences with a limited
-number of scans over the database. To this end, we need to find the range and
-the set of positions (i. e., the SRG) in which a candidate sequence is
-frequent in only one scan.
+S3 class definition for GSTSM.
+}
+\details{
+This algorithm is designed to the identification of frequent sequences in
+STS datasets from the concept of Solid Ranged Groups (SRG).
+GSTSM is based on the candidate-generating principle.
+The goal is to start finding SRGs for sequences of size one.
+Then it explores the support and the number of occurrences of SRGs for
+larger sequences with a limited number of scans over the database.
 }
 \examples{
 library("gstsm")
-events_data_path <-
-  system.file("extdata", "made_bangu_6x30.txt", package = "gstsm")
 
-space_time_data_path <-
-  system.file("extdata", "positions_2D_30.txt", package = "gstsm")
+D <- as.data.frame(matrix(c("B", "B", "A", "C", "A",
+              "C", "B", "C", "A", "B",
+              "C", "C", "A", "C", "A",
+              "B", "B", "D", "A", "B",
+              "B", "D", "D", "B", "D"
+            ), nrow = 5, ncol = 5, byrow = TRUE))
 
-d <- read.table(
-  events_data_path,
-  header = FALSE,
-  sep = " ",
-  dec = ".",
-  as.is = TRUE,
-  stringsAsFactors = FALSE
-)
-
-p <- read.table(
-  space_time_data_path,
-  header = TRUE,
-  sep = " ",
-  dec = ".",
-  as.is = TRUE,
-  stringsAsFactors = FALSE
-)
+ponto <- c("p1", "p2", "p3", "p4", "p5")
+x <- c(1, 2, 3, 4, 5)
+y <- c(0, 0, 0, 0, 0)
+z <- y
+P <- data.frame(ponto=ponto, x=x, y=y, z=z, stringsAsFactors = FALSE)
 
 gamma <- 0.8
 beta <- 2
 sigma <- 1
 
-result <- gstsm::gstsm(d, p, gamma, beta, sigma)
+gstsm_object <- gstsm(D, P, gamma, beta, sigma)
+
+result <- mine(gstsm_object)
+
 }

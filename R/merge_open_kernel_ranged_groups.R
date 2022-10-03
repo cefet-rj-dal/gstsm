@@ -1,7 +1,7 @@
-#' Algorithm 7: Merge Kernel Ranged Groups
+#' Merge Kernel Ranged Groups
 #'
-#' The goal of the Algorithm 7 is to stretch KRGs of the same
-#' candidate sequence. Its possible if two KRGs have intersection in space and
+#' The goal of is to stretch KRGs of the same candidate sequence.
+#' Its possible if two KRGs have intersection in space and
 #' the resulting KRG keeps its frequency equal to or greater than beta.
 #'
 #' @param c candidate.
@@ -10,7 +10,6 @@
 #' @param beta minimum group size
 #' @param adjacency_matrix adjacency matrix
 #' @return Set of updated KRGs
-#' @export
 merge_open_kernel_ranged_groups <- function( # nolint
   c,
   timestamp,
@@ -142,7 +141,7 @@ merge_open_kernel_ranged_groups <- function( # nolint
 
   c$rgs$time <- c$rgs$time[, -remove, drop = FALSE]
 
-  c <- gstsm::validate_kernel_ranged_groups(c, timestamp, gamma, beta)
+  c <- validate_kernel_ranged_groups(c, timestamp, gamma, beta)
 
   return(c)
 }

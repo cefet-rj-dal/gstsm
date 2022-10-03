@@ -1,19 +1,18 @@
-#' Algorithm 4: Validate Kernel Ranged Groups
+#' Validate Kernel Ranged Groups
 #'
 #' Its objective is to verify that the user thresholds were observed
 #' in each RGs, checking if they can still be stretched by keeping
 #' the frequency greater than or equal to the minimum gamma and if
-#' the minimum group size beta occurs. It takes as input
-#' a set of RGs RG of a candidate sequence, the timestamp of the start
-#' of the current sliding window timestamp,
-#' the user-defined thresholds gamma and beta.
+#' the minimum group size beta occurs.
+#' It takes as input a set of RGs RG of a candidate sequence, the timestamp
+#' of the start of the current sliding window timestamp, the user-defined
+#' thresholds gamma and beta.
 #'
 #' @param c candidate
 #' @param timestamp current timestamp
 #' @param gamma minimum temporal frequency
 #' @param beta minimum group size
 #' @return Validated Kernel-Ranged-Groups.
-#' @export
 validate_kernel_ranged_groups <- function(c, timestamp, gamma, beta) {
   r_s <- 1
 

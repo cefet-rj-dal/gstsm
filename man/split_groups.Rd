@@ -15,5 +15,5 @@ split_groups(pos, adjacency_matrix)
 new set based on candidate c found in d.
 }
 \description{
-Helper function that split groups
+Helper function that splits groups.
 }

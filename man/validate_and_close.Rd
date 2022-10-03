@@ -2,7 +2,7 @@
 % Please edit documentation in R/validate_and_close.R
 \name{validate_and_close}
 \alias{validate_and_close}
-\title{Algorithm 2: Validate and Close}
+\title{Validate and Close}
 \usage{
 validate_and_close(c, gamma, beta)
 }
@@ -17,8 +17,8 @@ validate_and_close(c, gamma, beta)
 validated Greedy-Ranged-Groups.
 }
 \description{
-The function is shown in Algorithm 2. It receives as input
-the set of RGs (RG) from a candidate and the minimum size of a group (beta).
+The function receives as input the set of RGs (RG) from a candidate and the
+minimum size of a group (beta).
 It starts defining a set of elements that will be removed from the
-set of RGs (line 2), if it does not have the minimum group size.
+set of RGs, if it does not have the minimum group size.
 }

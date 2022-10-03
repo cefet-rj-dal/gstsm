@@ -2,25 +2,18 @@
 % Please edit documentation in R/generate_candidates.R
 \name{generate_candidates}
 \alias{generate_candidates}
-\title{Algorithm 6: Generate Candidates}
+\title{Generate Candidates - definition}
 \usage{
-generate_candidates(srg, k, beta)
+generate_candidates(object, srgk)
 }
 \arguments{
-\item{srg}{Solid-Ranged-Groups}
+\item{object}{a GSTSM object}
 
-\item{k}{sequence size}
-
-\item{beta}{minimum group size}
+\item{srgk}{set of Solid Ranged Groups}
 }
 \value{
-Ck+1 set of candidates having length k + 1
+candidate sequences of size k + 1
 }
 \description{
-The algorithm combines SRGs that have sequences of size k, received as
-input, to generate candidates with sequences of size k + 1. Let x and y be
-SRGs, the conditions for this to occur are (line 3): that we have an
-intersection of candidates over the time range,
-intersection over the set of spatial positions (x.g n y.g), and
-a common subsequence: <x.s2, . . . , x.sk>=<y.s1, . . . , y.sk-1>.
+S3 class definition for generate_candidates method.
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/merge_open_kernel_ranged_groups.R
 \name{merge_open_kernel_ranged_groups}
 \alias{merge_open_kernel_ranged_groups}
-\title{Algorithm 7: Merge Kernel Ranged Groups}
+\title{Merge Kernel Ranged Groups}
 \usage{
 merge_open_kernel_ranged_groups(c, timestamp, gamma, beta, adjacency_matrix)
 }
@@ -21,7 +21,7 @@ merge_open_kernel_ranged_groups(c, timestamp, gamma, beta, adjacency_matrix)
 Set of updated KRGs
 }
 \description{
-The goal of the Algorithm 7 is to stretch KRGs of the same
-candidate sequence. Its possible if two KRGs have intersection in space and
+The goal of is to stretch KRGs of the same candidate sequence.
+Its possible if two KRGs have intersection in space and
 the resulting KRG keeps its frequency equal to or greater than beta.
 }

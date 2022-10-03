@@ -1,8 +1,6 @@
-#' Algorithm 3: Find Kernel Ranged Group
+#' Find Kernel Ranged Group
 #'
-#' The goal of Algorithm 3 is to find the KRG information for a candidate c
-#' It receives as input a candidate c, the set of transactions d from a sliding
-#' window of SW, and the thresholds defined by the user (gamma, beta and sigma).
+#' The goal is to find the Kernel Ranged Group information for a candidate c.
 #'
 #' @param c candidate
 #' @param d set of transactions
@@ -10,7 +8,6 @@
 #' @param beta minimum group size
 #' @param adjacency_matrix adjacency matrix
 #' @return Kernel Ranged-Group(s) of c updated
-#' @export
 find_kernel_ranged_group <- function(c, d, gamma, beta, adjacency_matrix) {
   rows <- nrow(d)
   columns <- ncol(d) - 1
@@ -33,7 +30,7 @@ find_kernel_ranged_group <- function(c, d, gamma, beta, adjacency_matrix) {
   }
 
   if (sum(pos) > 0) {
-    groups <- gstsm::split_groups(pos, adjacency_matrix)
+    groups <- split_groups(pos, adjacency_matrix)
 
     r_s <- timestamp
     r_e <- timestamp

@@ -1,15 +1,14 @@
-#' Algorithm 5: Merge Kernel Ranged Groups
+#' Merge Kernel Ranged Groups
 #'
-#' The goal of the Algorithm 5 is to merge KRGs. Let q and u be two different
-#' KRGs from the same candidate sequence. They can be merged into a group
-#' qu = q U u as long as they have an intersection and qu has
-#' a frequency greater than or equal to the minimum frequency defined by
-#' the user.
+#' The goal is to merge KRGs.
+#' Let q and u be two different KRGs from the same candidate sequence.
+#' They can be merged into a group qu = q U u as long as they have an
+#' intersection and qu has a frequency greater than or equal to the minimum
+#' frequency defined by the user.
 #'
 #' @param c candidate
 #' @param gamma minimum temporal frequency
 #' @return KRG
-#' @export
 merge_kernel_ranged_groups <- function(c, gamma) { # nolint
   lines <- nrow(c$rgs_closed$time)
 

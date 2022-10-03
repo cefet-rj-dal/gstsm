@@ -2,7 +2,7 @@
 % Please edit documentation in R/find_kernel_ranged_group.R
 \name{find_kernel_ranged_group}
 \alias{find_kernel_ranged_group}
-\title{Algorithm 3: Find Kernel Ranged Group}
+\title{Find Kernel Ranged Group}
 \usage{
 find_kernel_ranged_group(c, d, gamma, beta, adjacency_matrix)
 }
@@ -21,7 +21,5 @@ find_kernel_ranged_group(c, d, gamma, beta, adjacency_matrix)
 Kernel Ranged-Group(s) of c updated
 }
 \description{
-The goal of Algorithm 3 is to find the KRG information for a candidate c
-It receives as input a candidate c, the set of transactions d from a sliding
-window of SW, and the thresholds defined by the user (gamma, beta and sigma).
+The goal is to find the Kernel Ranged Group information for a candidate c.
 }

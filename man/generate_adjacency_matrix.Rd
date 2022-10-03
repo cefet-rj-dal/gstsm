@@ -15,5 +15,5 @@ generate_adjacency_matrix(spatial_positions, sigma)
 Adjacency Matrix
 }
 \description{
-Helper function that generates an adjacency matrix
+Helper function that generates an adjacency matrix.
 }

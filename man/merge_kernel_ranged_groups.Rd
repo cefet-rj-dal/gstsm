@@ -2,7 +2,7 @@
 % Please edit documentation in R/merge_kernel_ranged_groups.R
 \name{merge_kernel_ranged_groups}
 \alias{merge_kernel_ranged_groups}
-\title{Algorithm 5: Merge Kernel Ranged Groups}
+\title{Merge Kernel Ranged Groups}
 \usage{
 merge_kernel_ranged_groups(c, gamma)
 }
@@ -15,9 +15,9 @@ merge_kernel_ranged_groups(c, gamma)
 KRG
 }
 \description{
-The goal of the Algorithm 5 is to merge KRGs. Let q and u be two different
-KRGs from the same candidate sequence. They can be merged into a group
-qu = q U u as long as they have an intersection and qu has
-a frequency greater than or equal to the minimum frequency defined by
-the user.
+The goal is to merge KRGs.
+Let q and u be two different KRGs from the same candidate sequence.
+They can be merged into a group qu = q U u as long as they have an
+intersection and qu has a frequency greater than or equal to the minimum
+frequency defined by the user.
 }

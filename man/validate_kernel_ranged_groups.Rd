@@ -2,7 +2,7 @@
 % Please edit documentation in R/validate_kernel_ranged_groups.R
 \name{validate_kernel_ranged_groups}
 \alias{validate_kernel_ranged_groups}
-\title{Algorithm 4: Validate Kernel Ranged Groups}
+\title{Validate Kernel Ranged Groups}
 \usage{
 validate_kernel_ranged_groups(c, timestamp, gamma, beta)
 }
@@ -22,8 +22,8 @@ Validated Kernel-Ranged-Groups.
 Its objective is to verify that the user thresholds were observed
 in each RGs, checking if they can still be stretched by keeping
 the frequency greater than or equal to the minimum gamma and if
-the minimum group size beta occurs. It takes as input
-a set of RGs RG of a candidate sequence, the timestamp of the start
-of the current sliding window timestamp,
-the user-defined thresholds gamma and beta.
+the minimum group size beta occurs.
+It takes as input a set of RGs RG of a candidate sequence, the timestamp
+of the start of the current sliding window timestamp, the user-defined
+thresholds gamma and beta.
 }
