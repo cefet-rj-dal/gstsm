@@ -1,49 +1,73 @@
 Package: gstsm
 Title: Generalized Spatial-Time Sequence Miner
-Version: 0.0.1
+Version: 1.0.0
 Authors@R:
     c(
         person(
+            given = "Antonio",
+            family = "Castro",
+            role = c("aut", "cre"),
+            email = "gstsm@eic.cefet-rj.br"
+        ),
+        person(
             given = "Cássio",
             family = "Souza",
-            role = c("aut", "cre"),
-            email = "cassiofb.souza@gmail.com"
+            role = "ctb",
+            email = "cassio.souza@eic.cefet-rj.br"
         ),
         person(
             given = "Jorge",
             family = "Rodrigues",
+            role = "ctb",
+            email = "jorge.gabriel@eic.cefet-rj.br"
+        ),
+        person(
+            given = "Fábio",
+            family = "Porto",
             role = "aut",
-            email = "jorgegabriel99h@gmail.com"
+            email = "fporto@lncc.br"
+        ),
+        person(
+            given = "Esther",
+            family = "Pacitti",
+            role = "aut",
+            email = "esther.pacitti@inria.fr"
+        ),
+        person(
+            given = "Florent",
+            family = "Masseglia",
+            role = "aut",
+            email = "florent.masseglia@inria.fr"
+        ),
+        person(
+            given = "Rafaelli",
+            family = "Coutinho",
+            role = c("aut", "ths"),
+            email = "rafaelli.coutinho@cefet-rj.br"
         ),
         person(
             given = "Eduardo",
             family = "Ogasawara",
-            role = "ctb",
+            role = c("aut", "ths"),
             email = "eogasawara@ieee.org",
             comment = c(ORCID = "0000-0002-0466-0626")
         ),
         person(
-            given = "Antonio",
-            family = "Filho",
-            role = "ctb",
-            email = "antonio.castro@eic.cefet-rj.br"
-        ),
-        person(
-            given = "CEFET/RJ",
+            given = "Federal Center for Technological Education of Rio de Janeiro",
             role = "cph"
         )
     )
 Description: Implementations of the algorithms present in the future article 
-    Generalized Discovery of Tight Space-Time Sequences, original title
-    (Castro Filho, A. J. ; Borges, H. ; Pacitti, Esther ; Porto, F.
-    ; Coutinho, R. ; Ogasawara, E. . Generalização de Mineração de
+    Generalized Spatial-Time Sequence Miner, original title
+    (Castro, Antonio; Borges, Heraldo ; Pacitti, Esther ; Porto, Fabio
+    ; Coutinho, Rafaelli ; Ogasawara, Eduardo . Generalização de Mineração de
     Sequências Restritas no Espaço e no Tempo. In: XXXVI SBBD -
     Simpósio Brasileiro de Banco de Dados, 2021).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Imports: 
     digest
 Suggests: 
