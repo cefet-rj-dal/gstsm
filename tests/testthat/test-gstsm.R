@@ -49,6 +49,7 @@ test_that("size three sequences are correct", {
 
   result <- mine(gstsm_object)
 
-  expect_equal(length(result), 3)
+  expect_equal(length(result[[3]]), 1)
+  expect_equal(result[[3]][[1]]$s, "ACA")
 })
 

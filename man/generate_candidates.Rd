@@ -4,12 +4,12 @@
 \alias{generate_candidates}
 \title{Generate Candidates - definition}
 \usage{
-generate_candidates(object, srgk)
+generate_candidates(object, srg)
 }
 \arguments{
 \item{object}{a GSTSM object}
 
-\item{srgk}{set of Solid Ranged Groups}
+\item{srg}{set of Solid Ranged Groups}
 }
 \value{
 candidate sequences of size k + 1

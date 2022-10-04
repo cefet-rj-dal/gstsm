@@ -17,7 +17,7 @@ generate_candidates.gstsm <- function(object, srg) {
   if (lines <= 0) {
     return(srg)
   }
-print(srg[[1]]$s)
+
   k <- nchar(srg[[1]]$s)
 
   n_new_elements <- 0
