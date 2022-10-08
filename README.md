@@ -142,8 +142,6 @@ This package was made with the following open source projects:
 - [devtools](https://github.com/r-lib/devtools)
 - [roxygen2](https://github.com/r-lib/roxygen2)
 
-Special thanks to teacher Eduardo Ogasawara for the orientation and
-Antonio Castro for the article.
 
 ## License
 
