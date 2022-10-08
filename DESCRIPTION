@@ -12,13 +12,13 @@ Authors@R:
         person(
             given = "Cássio",
             family = "Souza",
-            role = "ctb",
+            role = c("aut","ctb")
             email = "cassio.souza@eic.cefet-rj.br"
         ),
         person(
             given = "Jorge",
             family = "Rodrigues",
-            role = "ctb",
+            role = c("aut","ctb")
             email = "jorge.gabriel@eic.cefet-rj.br"
         ),
         person(
