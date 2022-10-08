@@ -2,7 +2,6 @@
 
 <!-- badges: start -->
 ![GitHub followers](https://img.shields.io/github/followers/cefet-rj-dal)
-![GitHub](https://img.shields.io/github/license/cefet-rj-dal/gstsm?logo=Github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/cefet-rj-dal/gstsm?logo=Github)
 ![GitHub R package version](https://img.shields.io/github/r-package/v/cefet-rj-dal/gstsm)
 ![CRAN/METACRAN](https://img.shields.io/cran/l/gstsm)
@@ -205,9 +204,9 @@ MIT
 
 > Antonio Castro • [@castroantonio](https://github.com/castroantonio) <br>
 > Cássio Souza • [@cassiofb-dev](https://github.com/cassiofb-dev) <br>
-> Jorge Rodrigues • [@jorge-g99](https://github.com/jorge-g99)
-> Fabio Porto •
-> Esther Pacitti •
+> Jorge Rodrigues • [@jorge-g99](https://github.com/jorge-g99) <br>
+> Fabio Porto • <br>
+> Esther Pacitti • <br>
 > Rafaelli Coutinho • [@rafaelliiicoutinho](https://github.com/rafaelliiicoutinho) <br>
 > Eduardo Ogasawara • [@eogasawara](https://github.com/eogasawara) <br>
 

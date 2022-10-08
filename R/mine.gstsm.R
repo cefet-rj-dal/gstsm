@@ -6,33 +6,10 @@
 mine.gstsm <- function(object) {
   solid_ranged_groups <- list()
 
-  items <- stats::na.exclude(unique(unlist(object$D)))
+  ck <- generate_candidates(object, NULL)
+
   object$D <- cbind(object$D, "timestamp" = 1:nrow(object$D)) # nolint
   object$D <- as.matrix(object$D)
-
-  lines <- nrow(object$D)
-
-  pos <- c(rep(TRUE, nrow(object$P)))
-
-  time <- matrix(nrow = 0, ncol = 5)
-  colnames(time) <- c("r_s", "r_e", "freq", "e_s", "e_e")
-
-  rg <- list(time = time, group = list(), occ = list())
-
-  ck <- list()
-
-  nr_elements <- length(items)
-  for (i in 1:nr_elements) {
-    new_element <- list(
-      seq = items[i],
-      range_s = 1,
-      range_e = lines,
-      pos = pos,
-      rgs = rg,
-      rgs_closed = rg
-    )
-    ck[[i]] <- new_element
-  }
 
   k <- 0
 

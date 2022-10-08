@@ -12,6 +12,35 @@
 #' @return candidate sequences of size k + 1
 #' @exportS3Method gstsm::generate_candidates gstsm
 generate_candidates.gstsm <- function(object, srg) {
+  if (is.null(srg)) {
+    ck <- list()
+
+    items <- stats::na.exclude(unique(unlist(object$D)))
+
+    time <- matrix(nrow = 0, ncol = 5)
+    colnames(time) <- c("r_s", "r_e", "freq", "e_s", "e_e")
+
+    lines <- nrow(object$D)
+
+    rg <- list(time = time, group = list(), occ = list())
+
+    pos <- c(rep(TRUE, nrow(object$P)))
+
+    nr_elements <- length(items)
+    for (i in 1:nr_elements) {
+      new_element <- list(
+        seq = items[i],
+        range_s = 1,
+        range_e = lines,
+        pos = pos,
+        rgs = rg,
+        rgs_closed = rg
+      )
+      ck[[i]] <- new_element
+    }
+    return(ck)
+  }
+
   lines <- length(srg)
 
   if (lines <= 0) {
@@ -71,6 +100,5 @@ generate_candidates.gstsm <- function(object, srg) {
     }
     i <- i + 1
   }
-
   return(ck)
 }
