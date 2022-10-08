@@ -14,7 +14,6 @@
   <a href="#about">About</a> •
   <a href="#example">Example</a> •
   <a href="#documentation">Documentation</a> •
-  <a href="#development">Development</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -135,56 +134,6 @@ mine <- function(object)
 ```
 
 
-
-## Development
-
-This package was built based on the book [R Packages](https://r-pkgs.org/index.html)
-following this steps:
-
-### 0: Learning about R and packages
-
-First of all, it was necessary to understand the R language and the R package
-general structure and development workflow. Thanks to the book and online
-lessons made by the teacher Eduardo Ogasawara it was not hard to finish this step.
-
-### 1: Check name availability
-
-It is essential to choose the right name and besides being short a
-couple of tests should be done to check if the name is available not only on
-cran but on the general internet.
-
-For this, it is used a R package called available. This package checks the name
-in some sites and search for online definitions. After all check passed it is
-sure the name is nice choice.
-
-### 2: Reading the article
-
-Of course to built the package it was necessary some basic understanding
-about the article and a great understanding how its algorithms worked.
-After learning all this it was possible to think in how to structure the package.
-
-### 3: R code
-
-In This step all the algorithms were divided, adaptaded and put on R folder.
-After this was done it was possible to start using the package.
-
-### 4: Documentation
-
-The article was read once more to make sure that all the code documentation
-matched its counterpart in the article. With the documentation completed on
-R code with the help of devtools all the files on man folder were made.
-
-### 5: Metadata
-
-With the code and documentation done, the focus was changed to package metadata like
-description, authors, license and so on.
-
-### 6: Checking
-
-Last but not least, the package was tested with devtools. It is important to notice
-that the checking is the most essential step and besides being the final step, it was
-done in all previous step as devtools check has a lot of tests to catch errors.
-
 ## Credits
 
 This package was made with the following open source projects:
@@ -205,8 +154,9 @@ MIT
 > Antonio Castro • [@castroantonio](https://github.com/castroantonio) <br>
 > Cássio Souza • [@cassiofb-dev](https://github.com/cassiofb-dev) <br>
 > Jorge Rodrigues • [@jorge-g99](https://github.com/jorge-g99) <br>
-> Fabio Porto • <br>
 > Esther Pacitti • <br>
+> Fabio Porto • <br>
+> Florent Masseglia • <br>
 > Rafaelli Coutinho • [@rafaelliiicoutinho](https://github.com/rafaelliiicoutinho) <br>
 > Eduardo Ogasawara • [@eogasawara](https://github.com/eogasawara) <br>
 

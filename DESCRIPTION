@@ -22,16 +22,16 @@ Authors@R:
             email = "jorge.gabriel@eic.cefet-rj.br"
         ),
         person(
-            given = "Fábio",
-            family = "Porto",
-            role = "aut",
-            email = "fporto@lncc.br"
-        ),
-        person(
             given = "Esther",
             family = "Pacitti",
             role = "aut",
             email = "esther.pacitti@inria.fr"
+        ),
+        person(
+            given = "Fábio",
+            family = "Porto",
+            role = "aut",
+            email = "fporto@lncc.br"
         ),
         person(
             given = "Florent",
