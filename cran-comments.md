@@ -1,10 +1,14 @@
-## Resubmission
+## New version
 
-This is a resubmission. In this version I have:
+This is a new version. In this version I have:
 
-* Added reference in DESCRIPTION (article not yet published).
-* Removed redundant description.
-* Added example code for the main function.
-* Removed global enviroment modification with "<<-".
+* Updated aritcle reference in DESCRIPTION (included doi).
+* Updated README.md (included badge and removed a section).
+* Bugfix and optimizations.
 
-0 errors | 0 warnings | 0 notes
+## Check results
+
+── R CMD check results ──────────────────────────────────────────── gstsm 1.0.0 ────
+Duration: 7.8s
+
+0 errors ✔ | 0 warnings ✔ | 0 notes ✔
