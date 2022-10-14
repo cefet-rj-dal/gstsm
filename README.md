@@ -139,8 +139,11 @@ mine <- function(object)
 This package was made with the following open source projects:
 
 - [R](https://cran.r-project.org/sources.html)
+- [R packages](https://r-pkgs.org/)
 - [devtools](https://github.com/r-lib/devtools)
 - [roxygen2](https://github.com/r-lib/roxygen2)
+- [testthat](https://github.com/r-lib/testthat)
+- [knitr](https://github.com/yihui/knitr)
 
 
 ## License
