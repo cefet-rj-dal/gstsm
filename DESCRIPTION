@@ -57,12 +57,12 @@ Authors@R:
             role = "cph"
         )
     )
-Description: Implementations of the algorithms present in the future article 
+Description: Implementations of the algorithms present article 
     Generalized Spatial-Time Sequence Miner, original title
     (Castro, Antonio; Borges, Heraldo ; Pacitti, Esther ; Porto, Fabio
     ; Coutinho, Rafaelli ; Ogasawara, Eduardo . Generalização de Mineração de
     Sequências Restritas no Espaço e no Tempo. In: XXXVI SBBD -
-    Simpósio Brasileiro de Banco de Dados, 2021).
+    Simpósio Brasileiro de Banco de Dados, 2021 <doi:10.5753/sbbd.2021.17891>).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
