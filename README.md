@@ -1,14 +1,34 @@
-# gstsm
+<h1 align="center">
+  gstsm
+</h1>
+
 
 <!-- badges: start -->
-![GitHub followers](https://img.shields.io/github/followers/cefet-rj-dal)
-![GitHub Repo stars](https://img.shields.io/github/stars/cefet-rj-dal/gstsm?logo=Github)
-![GitHub R package version](https://img.shields.io/github/r-package/v/cefet-rj-dal/gstsm)
-![CRAN/METACRAN](https://img.shields.io/cran/l/gstsm)
-![CRAN/METACRAN](https://img.shields.io/cran/v/gstsm)
+<p align="center">
+  <img
+    alt="GitHub followers"
+    src="https://img.shields.io/github/followers/cefet-rj-dal"
+  />
+  <img
+    alt="GitHub Repo stars"
+    src="https://img.shields.io/github/stars/cefet-rj-dal/gstsm?logo=Github"
+  />
+  <img
+    alt="GitHub R package version"
+    src="https://img.shields.io/github/r-package/v/cefet-rj-dal/gstsm"
+  />
+  <img
+    alt="CRAN/METACRAN"
+    src="https://img.shields.io/cran/l/gstsm"
+  />
+  <img
+    alt="CRAN/METACRAN"
+    src="https://img.shields.io/cran/v/gstsm"
+  />
+</p>
 <!-- badges: end -->
 
-####  R package that implements GSTSM
+<h4 align="center">R package that implements GSTSM</h4>
 
 <p align="center">
   <a href="#about">About</a> •
